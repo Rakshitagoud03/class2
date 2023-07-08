@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 //state=>internal var of react,state can b of number,string,boolean,obj,array 
-function Ex1(props){
+const Ex3=(props)=>{
     //useState=>react hook
     //const[state,handler]=useState(initial val)
     const [x,setX]=useState(123)
@@ -35,4 +35,4 @@ function Ex1(props){
         </div>
     )
 } 
-export default Ex1
+export default Ex3
